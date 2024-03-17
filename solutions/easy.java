@@ -6,17 +6,17 @@ public class easy {
 		The function should return a boolean value reflecting is the input string is a palindrome or not.
 
 		Note: The input string contains uppercase and lowercase letters and spaces, but no special characters.
-        Note: The boolean returned should not rely on upper/lowercase letters or spaces.
+        	Note: The boolean returned should not rely on upper/lowercase letters or spaces.
         
-        Ex: "racecar", "RacecAr", and "race car" should all return true.
+        	Ex: "racecar", "RacecAr", and "race car" should all return true.
 
 		Input:
 		@param: string --> String to determine if it is a Palindrome
 
 		Output:
 		A boolean value.
-        True: if the input string is a palindrome
-        False: if the input string is not a palindrome
+       	 	True: if the input string is a palindrome
+       		False: if the input string is not a palindrome
 	*/
 	
     public static boolean isPalindrome(String str) {
@@ -46,12 +46,12 @@ public class easy {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a string: ");
-        String inputString = scanner.nextLine();
+        	System.out.print("Enter a string: ");
+        	String inputString = scanner.nextLine();
         
-        // Function Call
-        System.out.println(isPalindrome(inputString));
+        	// Function Call
+        	System.out.println(isPalindrome(inputString));
         
-        scanner.close();
+        	scanner.close();
 	}
 }
