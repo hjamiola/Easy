@@ -29,10 +29,10 @@ returns boolean value `false`
 
 #### Python
 `isPalindrome("race car")`
-returns boolean value `true`
+returns boolean value `True`
 
 `isPalindrome("hello")`
-returns boolean value `false`
+returns boolean value `False`
 
 ---
 ## Testing Your Program from the Console
