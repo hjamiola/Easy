@@ -1,12 +1,12 @@
-# isPalindrone?
+# isPalindrome?
 
 ### Problem Description
 
-A palindrone is a word or phrase that read the same both forwards and backwards.
+A palindrome is a word or phrase that reads the same both forwards and backwards.
 
 To solve this problem, **write code that outputs TRUE if the input is a palindrone, and FALSE if the input is not a palindrone**.
 
-It is highly recommended to use the provided skelton code for this question.
+It is highly recommended to use the provided skeleton code for this question.
 
 ---
 ## Writing Your Solution
@@ -15,23 +15,23 @@ Enter your solution in the body of this method in the given code skeleton:
 
 ### Method Signature
 #### Java
-```public static double isPalindrone(string input)```
+```public static boolean isPalindrome(string input)```
 #### Python
-```def isPalindrone(input):```
+```def isPalindrome(input):```
 
 ### Sample Method Calls
 #### Java
-`isPalindrone("race car")`
+`isPalindrome("race car")`
 returns boolean value `true`
 
-`isPalindrone("hello")`
+`isPalindrome("hello")`
 returns boolean value `false`
 
 #### Python
-`isPalindrone("race car")`
+`isPalindrome("race car")`
 returns boolean value `true`
 
-`isPalindrone("hello")`
+`isPalindrome("hello")`
 returns boolean value `false`
 
 ---
